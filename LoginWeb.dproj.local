@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/15 15:29:09.000.046,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 15:29:31.000.567,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\ServerController.pas</Transaction>
+    <Transaction>2019/10/15 15:29:31.000.810,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\UserSessionUnit.pas</Transaction>
+    <Transaction>2019/10/15 15:29:56.000.160,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.dfm=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Login.dfm</Transaction>
+    <Transaction>2019/10/15 15:29:56.000.160,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Login.pas</Transaction>
+    <Transaction>2019/10/15 19:03:23.000.498,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 19:03:37.000.942,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Menu.pas=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 19:03:37.000.942,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Menu.dfm=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2019/10/15 20:06:13.000.126,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 20:06:28.000.644,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.dfm=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Vendas.dfm</Transaction>
+    <Transaction>2019/10/15 20:06:28.000.644,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Vendas.pas</Transaction>
+    <Transaction>2019/10/15 21:13:03.000.917,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Menu.pas=</Transaction>
+    <Transaction>2019/10/15 21:13:56.000.861,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\ControleFinanceiro.dproj=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\CadastroClientes.dproj</Transaction>
+    <Transaction>2019/10/15 21:14:13.000.492,=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2019/10/15 21:14:19.000.246,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Vendas.pas=</Transaction>
+    <Transaction>2019/10/15 21:14:58.000.958,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.dfm=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Cadastro.dfm</Transaction>
+    <Transaction>2019/10/15 21:14:58.000.958,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Unit1.pas=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Cadastro.pas</Transaction>
+    <Transaction>2019/10/16 21:32:33.000.673,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\Cadastro.pas=</Transaction>
+    <Transaction>2019/10/16 21:34:40.000.460,C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\LoginWeb.dproj=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\ControleFinanceiro\CadastroClientes.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

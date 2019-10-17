@@ -1,0 +1,25 @@
+object FRMLOGIN: TFRMLOGIN
+  Left = 0
+  Top = 0
+  Width = 555
+  Height = 400
+  RenderInvisibleControls = True
+  AllowPageAccess = True
+  ConnectionMode = cmAny
+  Background.Fixed = False
+  LayoutMgr = IWTemplateProcessorHTML1
+  HandleTabs = False
+  LeftToRight = True
+  LockUntilLoaded = True
+  LockOnSubmit = True
+  ShowHint = True
+  XPTheme = True
+  DesignLeft = 2
+  DesignTop = 2
+  object IWTemplateProcessorHTML1: TIWTemplateProcessorHTML
+    TagType = ttIntraWeb
+    RenderStyles = False
+    Left = 72
+    Top = 32
+  end
+end

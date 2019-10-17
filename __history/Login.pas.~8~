@@ -1,0 +1,55 @@
+unit Login;
+
+interface
+
+uses
+  Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, IWVCLComponent,
+  IWBaseLayoutComponent, IWBaseContainerLayout, IWContainerLayout,
+  IWTemplateProcessorHTML, Vcl.Controls, IWVCLBaseControl, IWBaseControl,
+  IWBaseHTMLControl, IWControl, IWCompButton, IWCompEdit;
+
+type
+  TFRMLOGIN = class(TIWAppForm)
+    IWTemplateProcessorHTML1: TIWTemplateProcessorHTML;
+    BTNLOGIN: TIWButton;
+    TXTUSUARIO: TIWEdit;
+    TXTSENHA: TIWEdit;
+    procedure BTNLOGINAsyncClick(Sender: TObject; EventParams: TStringList);
+  public
+  end;
+
+implementation
+
+{$R *.dfm}
+
+uses ServerController;
+
+
+procedure TFRMLOGIN.BTNLOGINAsyncClick(Sender: TObject;
+  EventParams: TStringList);
+begin
+  if Trim(TXTUSUARIO.Text) = '' then
+  begin
+    WebApplication.ShowMessage('Preencha o Campo Usuário');
+    TXTUSUARIO.SetFocus;
+    exit;
+  end;
+
+  if Trim(TXTSENHA.Text) = '' then
+  begin
+    WebApplication.ShowMessage('Preencha o Campo Senha');
+    TXTSENHA.SetFocus;
+    exit;
+  end;
+
+  serv.query_login.Close;
+  serv.query_login.SQL.Clear;
+  serv.query_login.SQL.Add('select * from usuarios where usuario = :usuario and senha = :senha');
+  serv.query_login.ParamByName('usuario').Value := TXTUSUARIO.Text;
+  serv.query_login.ParamByName('senha').Value := TXTSENHA.Text;
+end;
+
+initialization
+  TFRMLOGIN.SetAsMainForm;
+
+end.

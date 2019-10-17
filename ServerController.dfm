@@ -1,0 +1,61 @@
+object serv: Tserv
+  OldCreateOrder = False
+  AppName = 'MyApp'
+  Description = 'My IntraWeb Application'
+  DisplayName = 'IntraWeb Application'
+  HTMLHeaders.Strings = (
+    
+      '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/' +
+      'bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0i' +
+      'XCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" cross' +
+      'origin="anonymous">'
+    ''
+    
+      '<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" i' +
+      'ntegrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfR' +
+      'vH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>'
+    
+      '<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.' +
+      '14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KV' +
+      'phtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymo' +
+      'us"></script>'
+    
+      '<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/' +
+      'js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoI' +
+      'Iy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"' +
+      '></script>')
+  Port = 8888
+  ServerResizeTimeout = 0
+  ShowLoadingAnimation = True
+  SessionTimeout = 10
+  LockSessionTimeout = 30000
+  SSLOptions.NonSSLRequest = nsAccept
+  SSLOptions.Port = 0
+  SSLOptions.SSLVersions = []
+  Version = '15.0.18'
+  AllowMultipleSessionsPerUser = False
+  JavaScriptOptions.jQueryVersion = '1.12.4'
+  OnNewSession = IWServerControllerBaseNewSession
+  Height = 391
+  Width = 562
+  object FD: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\albuq\Documents\Embarcadero\Studio\Projects\Lo' +
+        'gin\DB\financeiro.db'
+      'User_Name=root'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 32
+  end
+  object query_login: TFDQuery
+    Active = True
+    Connection = FD
+    SQL.Strings = (
+      'select * from usuarios')
+    Left = 136
+    Top = 32
+  end
+end
